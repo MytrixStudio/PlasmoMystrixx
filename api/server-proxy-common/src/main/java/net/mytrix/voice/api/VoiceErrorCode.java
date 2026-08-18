@@ -1,0 +1,15 @@
+package net.mytrix.voice.api;
+
+public enum VoiceErrorCode {
+    NONE,
+    API_UNAVAILABLE,
+    BACKEND_UNAVAILABLE,
+    SESSION_EXISTS,
+    SESSION_NOT_FOUND,
+    SESSION_CLOSED,
+    CHANNEL_EXISTS,
+    CHANNEL_NOT_FOUND,
+    INVALID_IDENTIFIER,
+    NOT_OWNER,
+    INVALID_STATE
+}

@@ -1,0 +1,12 @@
+MytrixVoice 3.1.11 validation
+================================
+
+PASS: 12/12 static native-group-routing invariants.
+PASS: 9 modified Java source files parsed successfully with the JDK compiler parser.
+PASS: Modified Kotlin sources produced no syntax diagnostics in a parser-oriented compiler check.
+PASS: Project ZIP structure and file integrity are validated after packaging.
+
+Full Gradle compilation/tests were not executed in this environment because the
+Gradle 9.3.1 distribution is not cached and network access to services.gradle.org
+is unavailable. Compile the project with the included wrapper in an environment
+with dependency access before deploying to production.
